@@ -1,10 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
-import PrimeraParte from './components/header';
+import Header from './components/header';
+import Navbar from './components/navbar';
 
 function App() {
   return (
-    <PrimeraParte/>
+    <div className='fondo_nav_and_head'>
+      <Navbar/>
+      <Header/>
+    </div>    
   );
 }
 

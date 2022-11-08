@@ -36,3 +36,20 @@
     transform: rotate(360deg);
   }
 }
+
+/* FONDO DE HOME AND HEADER */
+.fondo_nav_and_head{
+  background-image: url('../src/images/fondo_header.jpg');
+  animation: movimiento 10s infinite linear alternate;
+  background-size: 120%
+}
+
+@keyframes movimiento{
+from{
+  background-position: bottom left;
+}
+
+to{
+  background-position: top right;
+}
+}
