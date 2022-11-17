@@ -74,9 +74,8 @@ function App() {
               PLANETAS
             </h1>
             <p>
-              Agrupación de estrellas, cuerpos celestes y materia cósmica que está concentrada en
-              <br />
-              una determinada región del espacio por efecto de la atracción gravitatoria y constituye una unidad en el universo.
+            Un planeta es un cuerpo celeste que gira alrededor de una estrella, y que tiene suficiente masa para alcanzar un equilibrio hidrostático.
+            Este equilibrio le permite que mantenga su forma de esfera, que domine órbita y que no emita luz propia, sino que refleje la luz de la estrella alrededor de la que gravita.
             </p>
           </section>
 
