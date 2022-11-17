@@ -1,17 +1,22 @@
 import React from 'react';
-import '../css/style.css';
-import icono from '../images/icono.png';  
-import styled from 'styled-components';
+import '../css/galaxy.css';
 
-const Navbar =()=>{
-    return(
-        <Galax>
-        </Galax>
-    )
+function galaxy(props) {
+  return (
+    <div>
+      <img class='App-logo'
+        src={require(`../images/galaxy-${props.imagen}.png`)}
+        alt='' />
+      <div>
+        <p>
+          <strong>{props.titulo}</strong>
+        </p>
+        <p>
+          {props.definicion}
+        </p>
+      </div>
+    </div>
+  );
 }
 
-export default Navbar;
-
-const Galax = styled.section`
-
-`;
+export default galaxy;

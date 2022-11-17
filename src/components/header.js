@@ -6,28 +6,28 @@ import styled from 'styled-components';
 const Header =()=>{
     return(  
         <Head>    
-        <section class='home'>
-            <section>
-                <img src={nombre} alt=""/>            
+            <section class='home'>
+                <section>
+                    <img src={nombre} alt=""/>            
+                </section>
+                <section class="description_home">
+                    <section>
+                        <h1>
+                            APRENDE
+                        </h1>
+                        <br/>
+                        <h1>
+                            GALÁCTICAMENTE
+                        </h1>
+                        <br/>
+                    </section>
+                    <section>
+                        <p>
+                            "En Space te encontarás con curiosidades y conceptos básicos <br/>relacionados con la astronomía."
+                        </p>
+                    </section>
+                </section>   
             </section>
-            <section class="description_home">
-                <section>
-                    <h1>
-                        APRENDE
-                    </h1>
-                    <br/>
-                    <h1>
-                        GALÁCTICAMENTE
-                    </h1>
-                    <br/>
-                </section>
-                <section>
-                    <p>
-                        "En Space te encontarás con curiosidades y conceptos básicos <br/>relacionados con la astronomía."
-                    </p>
-                </section>
-            </section>   
-        </section>
         </Head>  
     )
 }
@@ -58,10 +58,5 @@ img{
     margin-right: 80px;
     padding-right: 80px;
     font-size: 20px;
-}
-
-h1{
-    font-size: 30px;
-    font-family: 'Courier', sans-serif;
 }
 `;

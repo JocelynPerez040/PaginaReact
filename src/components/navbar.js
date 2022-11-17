@@ -6,21 +6,21 @@ import styled from 'styled-components';
 const Navbar =()=>{
     return(
         <Nav>
-        <section>
-            <header>
-                <img src={icono} alt=""/>
-                <nav>
-                    <ul>
-                        <a href="#inicio">INICIO</a>
-                        <a href="#galaxia">GALAXIA</a>
-                        <a href="#planetas">PLANETAS</a>
-                        <a href="#contelaciones">CONSTELACIONES</a>
-                        <a href="#curiosidades">CURIOSIDADES</a>
-                        <a href="#actividades">ACTIVIDADES</a>
-                    </ul>
-                </nav>
-            </header>        
-        </section>
+            <section>
+                <header>
+                    <img class= 'App-logo' src={icono} alt=""/>
+                    <nav>
+                        <ul>
+                            <a href="#inicio">INICIO</a>
+                            <a href="#galaxia">GALAXIA</a>
+                            <a href="#planetas">PLANETAS</a>
+                            <a href="#contelaciones">CONSTELACIONES</a>
+                            <a href="#curiosidades">CURIOSIDADES</a>
+                            <a href="#actividades">ACTIVIDADES</a>
+                        </ul>
+                    </nav>
+                </header>        
+            </section>
         </Nav>
     )
 }
@@ -41,7 +41,7 @@ img{
     margin-left: 2%;
     width: 4%;
 	height: 60; 
-}
+} 
 
 nav a{
 	font-size: 19px;
